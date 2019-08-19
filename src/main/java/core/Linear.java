@@ -189,8 +189,8 @@ public class Linear {
 // Main method
 		public static void main(String[] args) throws Exception {
 			// checking browser 
-			browser = "firefox";
-			//browser = System.getProperty("browser"); // -Dbrowser="firefox"
+			// browser = "firefox";
+			browser = System.getProperty("browser"); // -Dbrowser="firefox"
 			if (browser == null) {
 				System.err.println("Please provide browser: -Dbrowser=firefox");
 				System.exit(0);
